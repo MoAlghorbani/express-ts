@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch src --exec node --loader ts-node/esm src/index.ts"
+    "dev": "nodemon --watch src --exec tsx src/index.ts"
   },
   "type": "module",
   "keywords": [],
@@ -11,8 +11,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/express": "^5.0.1",
     "nodemon": "^3.1.9",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
     "typescript": "^5.8.3"
   },
   "dependencies": {
